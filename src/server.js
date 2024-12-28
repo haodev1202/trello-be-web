@@ -5,7 +5,7 @@ const hostname = "localhost";
 const port = 3000;
 
 app.get("/", (req, res) => {
-    res.send({ message: "Hello World!" });
+    res.send({ message: "tran van hao" });
 });
 
 app.listen(port, hostname, () => {
